@@ -1,0 +1,72 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXFileReference section */
+		FEB5367120B8256A00AEB0F2 /* source.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = source.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		FEB5366A20B8255A00AEB0F2 = {
+			isa = PBXGroup;
+			children = (
+				FEB5367120B8256A00AEB0F2 /* source.cpp */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXProject section */
+		FEB5366B20B8255A00AEB0F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = FEB5366E20B8255A00AEB0F2 /* Build configuration list for PBXProject "SimpleCal" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FEB5366A20B8255A00AEB0F2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		FEB5366F20B8255A00AEB0F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		FEB5367020B8255A00AEB0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEB5366E20B8255A00AEB0F2 /* Build configuration list for PBXProject "SimpleCal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEB5366F20B8255A00AEB0F2 /* Debug */,
+				FEB5367020B8255A00AEB0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FEB5366B20B8255A00AEB0F2 /* Project object */;
+}
