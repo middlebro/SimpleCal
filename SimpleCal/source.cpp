@@ -28,10 +28,18 @@ int main(){
         Multiplication(A,B);
     }
     if (Op == '/') {
-        Division(A,B);
+        if (B == 0) {
+            cout << A << "cannot divide by "<< B<< endl;
+        } else {
+            Division(A,B);
+        }
     }
     if (Op == '%') {
-        Remainder(A,B);
+        if (B == 0) {
+            cout << A << "cannot divide by "<< B<< endl;
+        } else {
+            Remainder(A,B);
+        }
     }
     
     return 0;
