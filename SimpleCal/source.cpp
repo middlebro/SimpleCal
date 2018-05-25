@@ -24,6 +24,9 @@ int main(){
     if (Op == '-') {
         Substraction(A,B);
     }
+    if (Op == '*') {
+        Multiplication(A,B);
+    }
     
     return 0;
 }
@@ -36,6 +39,9 @@ int Substraction(int A, int B)
 {
     cout << A - B << endl;
 }
-int Multiplication(int A, int B);
+int Multiplication(int A, int B)
+{
+    cout << A * B << endl;
+}
 int Division(int A, int B);
 int Remainder(int A, int B);
