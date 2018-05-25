@@ -27,19 +27,11 @@ int main(){
     if (Op == '*') {
         Multiplication(A,B);
     }
-    if (Op == '/') {
-        if (B == 0) {
-            cout << A << "cannot divide by "<< B<< endl;
-        } else {
-            Division(A,B);
-        }
+    if (B == 0){
+        cout<< A <<"cannot divide by "<< B<<endl;
     }
-    if (Op == '%') {
-        if (B == 0) {
-            cout << A << "cannot divide by "<< B<< endl;
-        } else {
-            Remainder(A,B);
-        }
+    if (Op == '/') {
+        Division(A,B);
     }
     
     return 0;
@@ -61,7 +53,4 @@ int Division(int A, int B)
 {
     cout << A / B << endl;
 }
-int Remainder(int A, int B)
-{
-    cout << A % B <<endl;
-}
+int Remainder(int A, int B);
