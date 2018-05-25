@@ -27,7 +27,10 @@ int main(){
     if (Op == '*') {
         Multiplication(A,B);
     }
-    
+    if (Op == '/') {
+        Division(A,B);
+    }
+
     return 0;
 }
 
@@ -43,5 +46,8 @@ int Multiplication(int A, int B)
 {
     cout << A * B << endl;
 }
-int Division(int A, int B);
+int Division(int A, int B)
+{
+    cout << A / B << endl;
+}
 int Remainder(int A, int B);
