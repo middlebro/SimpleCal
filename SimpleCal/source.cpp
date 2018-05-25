@@ -18,19 +18,21 @@ int main(){
     int A, B
     char Op
     cin >> A >> Op >> B;
+    
+    if (B == 0 && Op == '/'){
+        cout<< A <<"cannot divide by "<< B<<endl;
+        break;
+    }
     if (Op == '+') {
         Implement(A,B);
     }
-    if (Op == '-') {
+    elseif (Op == '-') {
         Substraction(A,B);
     }
-    if (Op == '*') {
+    elseif (Op == '*') {
         Multiplication(A,B);
     }
-    if (B == 0){
-        cout<< A <<"cannot divide by "<< B<<endl;
-    }
-    if (Op == '/') {
+    elseif (Op == '/') {
         Division(A,B);
     }
     
@@ -49,8 +51,5 @@ int Multiplication(int A, int B)
 {
     cout << A * B << endl;
 }
-int Division(int A, int B)
-{
-    cout << A / B << endl;
-}
+int Division(int A, int B);
 int Remainder(int A, int B);
