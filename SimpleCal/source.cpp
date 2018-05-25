@@ -30,7 +30,10 @@ int main(){
     if (Op == '/') {
         Division(A,B);
     }
-
+    if (Op == '%') {
+        Remainder(A,B);
+    }
+    
     return 0;
 }
 
@@ -50,4 +53,7 @@ int Division(int A, int B)
 {
     cout << A / B << endl;
 }
-int Remainder(int A, int B);
+int Remainder(int A, int B)
+{
+    cout << A % B <<endl;
+}
